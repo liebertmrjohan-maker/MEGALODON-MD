@@ -11,14 +11,14 @@ function convertToBool(text, fault = 'true') {
 module.exports = {
     // ===== BOT CORE SETTINGS =====
 
-    SESSION_ID: process.env.SESSION_ID || "MEGALODON~MD~YRpVmQ6K#g7o-riWOfRyycxW6RS1qib3X_Kd1Vnm7pYpieJS6GaM",  // Your bot's session ID (keep it secure)
+    SESSION_ID: process.env.SESSION_ID || "MEGALODON~MD~QcAgiCbI#Gz68Dku9NXV7QLix5sK3MtgEAssz3RhNIUHAhmYL17s",  // Your bot's session ID (keep it secure)
     PREFIX: getConfig("PREFIX") || ".",  // Command prefix (e.g., "., / ! * - +")
     BOT_NAME: process.env.BOT_NAME || getConfig("BOT_NAME") || "MEGALODON-MD",  // Bot's display name
     MODE: process.env.MODE || "public",        // Bot mode: public/private/group/inbox
     // ===== OWNER & DEVELOPER SETTINGS =====
-    OWNER_NUMBER: process.env.OWNER_NUMBER || "50948702213",  // Owner's WhatsApp number
+    OWNER_NUMBER: process.env.OWNER_NUMBER || "50943160033",  // Owner's WhatsApp number
     
-    OWNER_NAME: process.env.OWNER_NAME || getConfig("OWNER_NAME") || "",           // Owner's name
+    OWNER_NAME: process.env.OWNER_NAME || getConfig("OWNER_NAME") || "🫆ᎷᏒ.ᒍ𝚯ᕼᗩᑎ ᒪ𝚰𝚵ᗷ𝚵ᖇ𝚻✞",           // Owner's name
     
     DEV: process.env.DEV || "50948336180",                     // Developer's contact number
     
@@ -35,8 +35,8 @@ module.exports = {
     
     // ===== MEDIA & AUTOMATION =====
     AUTO_RECORDING: process.env.AUTO_RECORDING || "false",      // Auto-record voice notes?
-    AUTO_TYPING: process.env.AUTO_TYPING || "false",   // Show typing indicator?
-    MENU_IMAGE_URL: getConfig("MENU_IMAGE_URL") || "https://files.catbox.moe/roubzi.jpg",  // Bot's "alive" image
+    AUTO_TYPING: process.env.AUTO_TYPING || "true",   // Show typing indicator?
+    MENU_IMAGE_URL: getConfig("MENU_IMAGE_URL") || "https://files.catbox.moe/gbsp6e.jpg",  // Bot's "alive" image
 
     // ===== SECURITY & ANTI-FEATURES =====
     ANTI_BOT: process.env.ANTI_BOT || "true",
@@ -49,13 +49,13 @@ module.exports = {
 
     ANTI_LINK_KICK: process.env.ANTILINK_KICK || "false",
 // make anti link true,false for groups 
-    ANTIVIEW_ONCE: process.env.ANTIVIEW_ONCE || "false",
+    ANTIVIEW_ONCE: process.env.ANTIVIEW_ONCE || "true",
     
     ANTILINK_WARN: process.env.ANTILINK_WARN || "false",
     
      ANTILINK: process.env.ANTILINK || "false",
     
-    ANTI_VV: process.env.ANTI_VV || "false",  
+    ANTI_VV: process.env.ANTI_VV || "true",  
     // Block view-once messages?
     DELETE_LINKS: process.env.DELETE_LINKS || "false",  
     // Auto-delete links?
